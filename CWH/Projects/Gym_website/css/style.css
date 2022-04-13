@@ -1,0 +1,141 @@
+.left{
+    color: white;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.left div{
+    display: block;
+    background-color: rgb(95, 95, 230);
+    padding: 6px;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin:7px 2px;
+    font-size: 13px;
+
+}
+.left img{
+    width: 70px ;
+}
+
+.mid{
+    
+    background-color: rgb(95, 95, 230);
+    border-radius: 25px;
+    font-style: italic;
+    display: block;
+    width: 64%;
+    
+    margin: 12px auto;
+    border: 2px solid white;
+    cursor:pointer;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration:none;
+    padding: 14px 13px;
+}
+
+.navbar li a:hover , .navbar li a:active{
+    color:rgb(218, 211, 211);
+    text-decoration: underline;
+}
+
+.right{
+    color: white;
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    display: inline-block;
+}
+
+.btn{
+    margin: 5px 2px;
+    color: white;
+    background-color: rgb(95, 95, 230);
+    border: 2px solid white;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.btn:hover{
+    background-color: grey;
+    text-decoration: underline;
+}
+
+.container{
+    color: white;
+    display: block;
+    margin: 50px 90px;
+    padding:30px;
+    border-radius: 28px;
+    width: 50% ;
+}
+
+h1{
+    display: block;
+    width: 490px;
+    text-align: center;
+    background-color:rgb(95, 95, 230);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.container button{
+    display: block;
+    width: 23%;
+    margin: 20px auto;
+}
+
+.address img{
+    width: 70px ;
+    position: absolute;
+    left: 34px;
+    top: 600px;
+    display: inline-block;
+    margin: 13px;
+}
+
+h3{
+    display: inline-block;
+    background-color: rgb(95, 95, 230);
+    padding: 6px;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin: 0px 42px;
+    font-size: 23px;
+}
+
+.address h2{
+    /* display: inline-block; */
+    background-color: rgb(95, 95, 230);
+    padding: 6px;
+    border-radius: 23px;
+    border: 2px solid white;
+    margin: -3px 145px;
+    font-size: 23px;
+    text-align: center;
+}

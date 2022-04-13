@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box2</title>
+    <style>
+        #head{
+            border-color: black;
+            margin: 15px;
+            border-radius: 3px;
+        }
+        div.flex_row{
+            padding: 10px;
+            display: flex;
+            flex-direction:flex-row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        div.flexItem{
+            border: 2px solid rgb(117, 117, 117);
+            border-radius: 10px;
+            width:270px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 100%;
+        }
+        div.flexItem img{
+            width: 100%;
+            height: 250%;
+            border-radius: 5px;
+            box-shadow: 1px 1px;
+        }
+        div.flexItem h1{
+            font-size: 30px;
+            text-align: center;
+        }
+        div.flexitem p{
+            padding-left: 6px ;
+        }
+        div.flexItem button{
+            margin-bottom: 20px;
+            margin-left: 30px;
+            border-radius: 5px;
+            padding: 12px 50px;
+            color: white;
+            background-color: black;
+            border: none;
+            font-size: 1.2rem;
+        }
+        div.flexItem button:hover{
+            background-color: gray;
+            cursor: pointer;
+        }
+        #flex-3{
+            margin-bottom: 20px;
+            
+        }
+        *{
+            background-color:bisque
+        }
+    </style>
+</head>
+<body>
+    <!-- <fieldset id="head" style="padding-top: 1px;"> -->
+        <h2 style="margin-top: 00px;margin-bottom: 00px;text-align: center;">FlexBox</h2>
+    <div class="flex_row">
+        <div class="flexItem" id="flex-1"> 
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="This is an Image">
+            <h1>SunTree</h1>
+            <p style="padding-left: 10px;padding-right: 10px;">The Sun Tree is a sacred tree in the town square of Whitestone that was created by Pelor .</p>
+            <button>Read More</button>
+        </div>
+        <div class="flexItem" id="flex-2"> 
+            <img src="https://motionarray.imgix.net/preview-860440-rU7xUq3HcZ-high_0004.jpg" alt="This is an Image">
+            <h1>Neon Ring</h1>
+            <p style="padding-left: 10px;padding-right: 10px;">Neon is an odorless and colorless gas under normal pressure and temperature.</p>
+            <button>Read More</button>
+        </div>
+        <div class="flexItem" id="flex-3"> 
+            <img src="https://www.thoughtco.com/thmb/1g2-jnNGFo6SMikINMmHOmKsBMI=/3865x2576/filters:fill(auto,1)/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg" alt="This is an Image">
+            <h1>Taj Mahal </h1>
+            <p style="padding-left: 10px;padding-right: 10px;">Mughal emperor Shah Jahan as a mausoleum for his beloved wife Mumtaz Mahal</p>
+            <button>Read More</button>
+        </div>
+        <div class="flexItem" id="flex-4"> 
+            <img src="https://st.depositphotos.com/1428083/2946/i/600/depositphotos_29460297-stock-photo-bird-cage.jpg" alt="This is an Image">
+            <h1> Freedom</h1>
+            <p style="padding-left: 10px;padding-right: 10px;">Freedom is a condition in which people have the opportunity to speak..</p>
+            <button>Read More</button>
+        </div>
+        <div class="flexItem" id="flex-5"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTK500IQ_2NpiNk7Ed_4phbWDtLSZ7QGWuNA&usqp=CAU" alt="This is an Image">
+            <h1>Newborn Baby</h1>
+            <p style="padding-left: 10px;padding-right: 10px;">Newborn usually refers to a baby from birth to about 2 months of age</p>
+            <button>Read More</button>
+        </div>
+        <div class="flexItem" id="flex-6"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_f-3Npwnj40B6u8O8WmcX8swxRqUS8ncQg&usqp=CAU" alt="This is an Image">
+            <h1>Apple</h1>
+            <p style="padding-left: 10px;padding-right: 10px;">The image of a bitten apple alludes to the story of Adam and Eve</p>
+            <button>Read More</button>
+        </div>
+    </div>
+<!-- </fieldset> -->
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        * {
+            margin: 0%;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+        }
+
+        .main {
+            
+            border: 25px solid #45a29e;
+            border-top: 50px solid #45a29e;
+            padding: 0px;
+        }
+        .border{
+            background-color: white;
+            border: 5px solid black;
+        }
+        .top {
+            font-size: 60px;
+            color: #45a29e;
+            margin: 20px;
+        }
+        <!-- div.container{
+            background-color: white;
+        } -->
+        .container {
+            
+            padding: 15px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 1.5%;
+            height: 650px;
+        }
+
+        .child {
+            display: grid;
+            grid-gap: 1.5%;
+        }
+
+        .child div {
+            border-radius: 8px;
+            color: #45a29e;
+            background-color: #1f2833;
+        }
+
+        .child div:hover {
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body class="main">
+    <div class="border">
+        <div class="top"> CSS Grid </div>
+        <div class="container">
+            <div class="child">
+                <div>1</div>
+            </div>
+            <div class="child">
+                <div>2</div>
+                <div>3</div>
+            </div>
+            <div class="child">
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+            <div class="child">
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+            </div>
+            <div class="child">
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+                <div>15</div>
+                <div>16</div>
+            </div>
+            <div class="child">
+                <div>17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20</div>
+                <div>21</div>
+                <div>22</div>
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <div>26</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
